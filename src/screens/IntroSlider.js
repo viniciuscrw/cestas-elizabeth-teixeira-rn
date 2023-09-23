@@ -13,7 +13,7 @@ const slides = [
     title: 'Cestas Elizabeth Teixeira',
     subtitle: 'Barão Geraldo',
     text1:
-      'Bem vindo, bem vinda ao aplicativo  de gestão das cestas do Coletivo de Produtoras Elizabeth Teixeira do grupo de consumo de Barão Geraldo',
+      'Boas vindas ao aplicativo  de gestão das cestas do Coletivo de Produtoras Elizabeth Teixeira do grupo de consumo de Barão Geraldo.',
     text2: 'Versão 3.1.5',
     image1: logoElizabeth,
     image2: logoIfsp,
@@ -23,7 +23,7 @@ const slides = [
     title: 'Elizabeth Teixeira',
     subtitle: 'Barão Geraldo',
     text2:
-      'A Cooperflora é uma cooperativa de produtoras e produtores rurais sediada no assentamento Milton Santos fundada em 2015. A  cooperativa tem trabalhado para construir um mercado de consumo consciente da sua produção fornecendo, em bases semanais, a venda de cestas  agroecológicas de seus produtos para grupos de consumo. Os produtores da Cooperflora são certificados pela OCS - Organização de Controle Social.\n\nUm grupo de consumo é um conjunto de pessoas que se juntam para comprar os produtos orgânicos da cooperativa em uma relação que não é apenas comercial, mas é de valorização da produção familiar orgânica.',
+      'O Elizabeth Teixeira é um coletivo de produtoras de alimentos organicos localizado dentro do assentamento de mesmo nome. Em parceria com a Incubadora Tecnológica de Coletivos Populares da Unicamp (ITCP Unicamp), o coletivo tem trabalhado para construção de um grupo de consumo reponsável. Um grupo de consumo é um conjunto de pessoas que se juntam para comprar os produtos orgânicos da cooperativa em uma relação que não é apenas comercial, mas é de valorização da produção familiar orgânica.',
   },
   {
     key: '3',
@@ -37,7 +37,7 @@ const slides = [
     title: 'Elizabeth Teixeira',
     subtitle: 'Barão Geraldo',
     text2:
-      'O projeto.\n\nEste aplicativo foi desenvolvido através de um projeto de extensão do Instituto Federal de São Paulo campus Campinas.\n\nIFSP Campinas.\n\nO Instituto Federal de Educação, Ciência e Tecnologia de São Paulo - IFSP - é uma autarquia federal de ensino fundada em 1909, como de Aprendizes Artífices. O IFSP é vinculado ao Ministério da Educação (MEC), é reconhecido por sua excelência no ensino público e atuação prioritária na oferta de educação tecnológica.',
+      'O projeto.\n\nEste aplicativo foi desenvolvido através de um projeto de extensão da Incubadora Tecnológica de Coletivos Populares Campinas.\n\ITCP Campinas.\n\n A ITCP Unicamp é um programa de Extensão da Unicamp, criado junto à Pró-Reitoria de Extensão e Cultura (Proec) em 2001 no Campus Campinas. Em 2013 é criada a ITCP do Campus Limeira. Ambas desenvolvem ações de Educação Popular a partir da formação e apoio a grupos populares como cooperativas, associações e grupos informais.',
   },
   {
     key: '5',

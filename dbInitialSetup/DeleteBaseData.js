@@ -18,13 +18,6 @@ const group = {
 
 console.log(users);
 
-// Prod DB
-// const serviceAccount = require('../../cestascooperflorabarao-firebase-adminsdk-kg42n-264249460c.json');
-
-// Dev DB
-// const serviceAccount = require('../../cestascooperflorabarao-dev-firebase-adminsdk-hopm6-3604f3476c.json');
-
-// Bordi database ==============
 const serviceAccount = require('../../cestas-cooperflora-dev2-firebase-adminsdk-f8nor-6bf231082b.json');
 
 const databaseURL =
@@ -32,7 +25,7 @@ const databaseURL =
 // =============================
 
 console.log(
-  'Iniciando a configuração do banco de dados do app Cestas Cooperflora'
+  'Iniciando a configuração do banco de dados do app Cestas Elizabeth Teixeira'
 );
 console.log(group);
 

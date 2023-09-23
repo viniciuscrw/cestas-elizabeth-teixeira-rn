@@ -20,36 +20,34 @@ const AboutScreen = () => {
           <TextLabel>PROJETO</TextLabel>
           <View style={styles.textContainer}>
             <TextContent style={{ textAlign: 'justify' }}>
-              Este aplicativo foi desenvolvido através de um projeto de extensão
-              do Instituto Federal de São Paulo campus Campinas.
+            Este aplicativo foi desenvolvido através de um projeto de extensão da 
+            Incubadora Tecnológica de Coletivos Populares Campinas - ITCP/Campinas.
             </TextContent>
           </View>
-          <TextLabel>COOPERFLORA</TextLabel>
+          <TextLabel>Elizabeth Teixeira</TextLabel>
           <View style={styles.textContainer}>
             <TextContent style={{ textAlign: 'justify' }}>
-              A Cooperflora é uma cooperativa de produtores rurais sediada no
-              assentamento Milton Santos fundada em 2015. A cooperativa tem
-              trabalhado para construir um mercado de consumo consciente da sua
-              produção fornecendo, em bases semanais, a venda de cestas
-              agroecológicas de seus produtos para grupos de consumo. Os
-              produtores da Cooperflora são certificados pela OCS - Organização
-              de Controle Social.
+            O Elizabeth Teixeira é um coletivo de produtoras de alimentos organicos 
+            localizado dentro do assentamento de mesmo nome. Em parceria com a Incubadora 
+            Tecnológica de Coletivos Populares da Unicamp (ITCP Unicamp), o coletivo tem 
+            trabalhado para construção de um grupo de consumo reponsável. Um grupo de consumo 
+            é um conjunto de pessoas que se juntam para comprar os produtos orgânicos da cooperativa 
+            em uma relação que não é apenas comercial, mas é de valorização da produção familiar orgânica.
             </TextContent>
           </View>
           <View style={styles.linkContainer}>
             <AntDesign name="link" size={24} color="black" />
             <Text style={styles.textlink}>
-              https://www.facebook.com/Cooperflora1/
+              https://www.instagram.com/produtoraselizabethteixeira/
             </Text>
           </View>
           <TextLabel style={styles.textTitulos}>IFSP CAMPINAS</TextLabel>
           <View style={styles.textContainer}>
             <TextContent style={{ textAlign: 'justify' }}>
-              O Instituto Federal de Educação, Ciência e Tecnologia de São Paulo
-              – IFSP – é uma autarquia federal de ensino fundada em 1909, como
-              de Aprendizes Artífices. O IFSP é vinculado ao Ministério da
-              Educação (MEC), é reconhecido por sua excelência no ensino público
-              e atuação prioritária na oferta de educação tecnológica.
+            A ITCP Unicamp é um programa de Extensão da Unicamp, 
+            criado junto à Pró-Reitoria de Extensão e Cultura (Proec) em 2001 no Campus Campinas. 
+            Em 2013 é criada a ITCP do Campus Limeira. Ambas desenvolvem ações de Educação Popular 
+            a partir da formação e apoio a grupos populares como cooperativas, associações e grupos informais.
             </TextContent>
           </View>
           <View style={styles.linkContainer}>
@@ -64,12 +62,8 @@ const AboutScreen = () => {
             <TextContent>André Luís Bordignon</TextContent>
             <TextContent>Vinícius Costa Regaço</TextContent>
             <TextLabel style={{ paddingTop: 10 }}>Design</TextLabel>
-            <TextContent>Mateus Santos Magalhães</TextContent>
-            <TextLabel style={{ paddingTop: 10 }}>Bolsistas</TextLabel>
-            <TextContent>Luana Matallo Ruggiero</TextContent>
-            <TextContent>Rafal Almeida</TextContent>
-            <TextContent>Yasmin Souza Lima</TextContent>
-          </View>
+            <TextContent>Augusto Cesar Silva Cruz</TextContent>
+                      </View>
           <Image style={styles.imageStyle} source={basketproducts} />
         </ScrollView>
       </View>

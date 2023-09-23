@@ -5,7 +5,7 @@ export default {
       'O coletivo de produtoras Elizabeth Teixeira é um coletivo que produz e comercializa produtos agroecológicos em Campinas-SP e Limeira-SP.',
   },
   CONSUMER_GROUP: {
-    ID: 'vhvp5xf4PNESoy0qR2Yx',
+    ID: '76PokqiJ8j87PDFBmWpN',
     NAME: 'Campinas',
   },
   USER: {

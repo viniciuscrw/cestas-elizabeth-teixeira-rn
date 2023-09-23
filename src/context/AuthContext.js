@@ -336,11 +336,15 @@ const findUser = (dispatch) => async (email) => {
   const user = await getFirstByAttribute('users', 'email', email);
 
   if (user) {
-    console.log(`User found by email: ${user.id}`);
-    dispatch({
-      type: 'add_user',
-      payload: user.id,
-    });
+    if (user.authId) {
+      dispatch({ type: 'check_auth' });
+    } else {
+      console.log(`User found by email: ${user.id}`);
+      dispatch({
+        type: 'add_user',
+        payload: user.id,
+      });
+    }
   } else {
     dispatch({ type: 'add_error', payload: 'E-mail não autorizado.' });
   }

@@ -49,8 +49,8 @@ export const sendPushNotification = async (users) => {
   const message = {
     // to: expoPushToken,
     sound: 'default',
-    title: 'Nova entrega de cesta orgânica da cooperativa Cooperflora.',
-    body: 'Você já pode informar se gostaria de pegar a sua cesta orgânica na próxima entrega!',
+    title: 'Nova entrega de cesta orgânica da as produtoras do Elizabeth Teixeira.',
+    body: 'Você já pode informar se gostaria de pegar a sua cesta na próxima entrega!',
     data: { someData: 'goes here' },
   };
 
@@ -81,7 +81,7 @@ export const sendPushNotificationToUser = async (
   const message = {
     to: userExpoNotificationToken,
     sound: 'default',
-    title: 'Notificação de Cestas Cooperflora',
+    title: 'Notificação de Cestas Elizabeth Teixeira',
     body: notifcationMessage,
     data: { someData: 'goes here' },
   };

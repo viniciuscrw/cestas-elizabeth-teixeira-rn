@@ -153,7 +153,7 @@ export const consumerGroupInfoScreenOptions = () => {
   return {
     headerTitle: () => (
       <View style={styles.header}>
-        <HeaderTitle title="Grupo de Consumo" subtitle="Barão Geraldo" />
+        <HeaderTitle title="Grupo de Consumo" subtitle="Campinas" />
       </View>
     ),
     headerBackImage: () => <BackArrow />,

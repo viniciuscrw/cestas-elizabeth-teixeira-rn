@@ -61,7 +61,6 @@ const ForgotPasswordScreen = ({ navigation, route }) => {
     </TouchableWithoutFeedback>
   );
 };
-//cooperflorabarao@gmail.com
 
 export const forgotPasswordScreenOptions = (props) => {
   return {

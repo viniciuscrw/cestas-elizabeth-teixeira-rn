@@ -1,12 +1,12 @@
 export default {
   APP: {
-    NAME: 'Cestas Cooperflora',
+    NAME: 'Cestas Elizabeth Teixeira',
     INITIALSCREEN_TEXT:
-      'A Cooperflora é uma cooperativa que produz e comercializa produtos orgânicos do assentamento Milton Santos em Americana.',
+      'O coletivo de produtoras Elizabeth Teixeira é um coletivo que produz e comercializa produtos agroecológicos em Campinas-SP e Limeira-SP.',
   },
   CONSUMER_GROUP: {
     ID: 'vhvp5xf4PNESoy0qR2Yx',
-    NAME: 'Barão Geraldo',
+    NAME: 'Campinas',
   },
   USER: {
     ATTRIBUTE: {

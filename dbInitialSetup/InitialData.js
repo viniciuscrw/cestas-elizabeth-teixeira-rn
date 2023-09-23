@@ -1,6 +1,6 @@
 module.exports.users = [
   {
-    email: 'cooperflorabarao@gmail.com',
+    email: 'aplicativoelizabethteixeira@gmail.com',
     name: 'Organizador',
     role: 'organizer',
     consumerGroupId: 'vhvp5xf4PNESoy0qR2Yx',
@@ -14,34 +14,6 @@ module.exports.users = [
     balance: 0,
   },
   {
-    email: 'souzasmimi@gmail.com',
-    name: 'Yasmin',
-    role: 'consumer',
-    consumerGroupId: 'vhvp5xf4PNESoy0qR2Yx',
-    balance: 0,
-  },
-  {
-    email: 'luana.matallogg@gmail.com',
-    name: 'Luana',
-    role: 'consumer',
-    consumerGroupId: 'vhvp5xf4PNESoy0qR2Yx',
-    balance: 0,
-  },
-  {
-    email: 'na.ambar@gmail.com',
-    name: 'Natalia',
-    role: 'consumer',
-    consumerGroupId: 'vhvp5xf4PNESoy0qR2Yx',
-    balance: 0,
-  },
-  {
-    email: 'gra.monteiro0@gmail.com',
-    name: 'Gra',
-    role: 'consumer',
-    consumerGroupId: 'vhvp5xf4PNESoy0qR2Yx',
-    balance: 0,
-  },
-  {
     email: 'viniciuscregaco@gmail.com',
     name: 'Vinicius',
     role: 'consumer',
@@ -49,8 +21,8 @@ module.exports.users = [
     balance: 0,
   },
   {
-    email: 'mauricioesposito.eco@gmail.com',
-    name: 'Maurício',
+    email: 'aceesar99@gmail.com',
+    name: 'Augusto',
     role: 'consumer',
     consumerGroupId: 'vhvp5xf4PNESoy0qR2Yx',
     balance: 0,

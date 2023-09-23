@@ -20,7 +20,7 @@ import { sendPushNotificationToUser } from '../utils';
 
 const UserDetailScreen = (props) => {
   const [notificationMessage, setNotificationMessage] = useState(
-    'Mensagem de Cestas Cooperflora'
+    'Mensagem de Cestas Elizabeth Teixeira'
   );
   // const user = navigation.getParam('user');
   const { user } = props.route.params;

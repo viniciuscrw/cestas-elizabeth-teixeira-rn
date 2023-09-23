@@ -4,7 +4,7 @@ import AppIntroSlider from 'react-native-app-intro-slider';
 import { FontAwesome5 } from '@expo/vector-icons';
 import Constants from 'expo-constants';
 import Button from '../components/Button';
-import logoCooperflora from '../../assets/images/logo.png';
+import logoElizabeth from '../../assets/images/logo.png';
 import logoIfsp from '../../assets/images/logoifspcampinas.png';
 
 const slides = [
@@ -15,7 +15,7 @@ const slides = [
     text1:
       'Bem vindo, bem vinda ao aplicativo  de gestão das cestas Cooperflora do grupo de consumo de Barão Geraldo',
     text2: 'Versão 3.1.5',
-    image1: logoCooperflora,
+    image1: logoElizabeth,
     image2: logoIfsp,
   },
   {

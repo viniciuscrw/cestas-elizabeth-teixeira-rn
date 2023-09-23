@@ -10,7 +10,7 @@ import TextLink from '../components/TextLink';
 import BasketProductsImage from '../../assets/images/basketproducts3.png';
 import mstLogo from '../../assets/images/logomst169x169.png';
 import ifspLogo from '../../assets/images/logoifspcampinas.png';
-import cooperfloraLogo from '../../assets/images/logocooperflora.png';
+import elizabethlogo from '../../assets/images/logoelizabeth.png';
 import Colors from '../constants/Colors';
 import Globals from '../Globals';
 
@@ -212,7 +212,7 @@ const SigninScreen = ({ navigation }) => {
           </Text>
         </View>
         <View style={styles.logosContainer}>
-          <Image style={styles.logoImage} source={cooperfloraLogo} />
+          <Image style={styles.logoImage} source={elizabethlogo} />
           <Image style={styles.logoImageIfsp} source={ifspLogo} />
           <Image style={styles.logoImage} source={mstLogo} />
         </View>

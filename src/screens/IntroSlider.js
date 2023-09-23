@@ -13,7 +13,7 @@ const slides = [
     title: 'Cestas Elizabeth Teixeira',
     subtitle: 'Campinas',
     text1:
-      'Boas vindas ao aplicativo  de gestão das cestas do Coletivo de Produtoras Elizabeth Teixeira do grupo de consumo de Campinas.',
+      'Boas vindas ao aplicativo de gestão das cestas do Coletivo de Produtoras Elizabeth Teixeira do grupo de consumo de Campinas.',
     text2: 'Versão 3.1.5',
     image1: logoElizabeth,
     image2: logoIfsp,

@@ -4,24 +4,22 @@ import Constants from 'expo-constants';
 const ENV = {
   dev: {
     FirebaseConfig: {
-      apiKey: 'AIzaSyCAn6bViRobzNBEvfANu8eFEqBji3_KE7E',
-      authDomain: 'cestascooperflorabarao-dev.firebaseapp.com',
-      databaseURL: 'https://cestas-cooperflora-dev.firebaseio.com',
-      projectId: 'cestascooperflorabarao-dev',
-      storageBucket: 'cestascooperflorabarao-dev.appspot.com',
-      messagingSenderId: '384118273017',
-      appId: '1:384118273017:web:046a319cf0b479f7d2c328',
+      apiKey: "AIzaSyBS-fsmmAQYQ4DahRevdcrrk_s3DLZ6BnU",
+      authDomain: "appelizabethteixeira-dev.firebaseapp.com",
+      projectId: "appelizabethteixeira-dev",
+      storageBucket: "appelizabethteixeira-dev.appspot.com",
+      messagingSenderId: "593790690937",
+      appId: "1:593790690937:web:c35e130470d04d2e6a96a8"
     },
   },
   prod: {
     FirebaseConfig: {
-      apiKey: 'AIzaSyAKufHFIlzA2k26_PO4Yfx03pUqtfLHAKw',
-      authDomain: 'cestascooperflorabarao.firebaseapp.com',
-      databaseURL: 'https://cestas-cooperflora-barao.firebaseio.com',
-      projectId: 'cestascooperflorabarao',
-      storageBucket: 'cestascooperflorabarao.appspot.com',
-      messagingSenderId: '1021764633897',
-      appId: '1:1021764633897:web:2ac317b9efd23a3306a338',
+      apiKey: "AIzaSyBM9ccyBi5vmyxTc0YLfwuBYJ8X5zEIC24",
+      authDomain: "appelizabethteixeira-prod.firebaseapp.com",
+      projectId: "appelizabethteixeira-prod",
+      storageBucket: "appelizabethteixeira-prod.appspot.com",
+      messagingSenderId: "962830975893",
+      appId: "1:962830975893:web:be3027fdb79d3c2e202c9c"
     },
   },
 };

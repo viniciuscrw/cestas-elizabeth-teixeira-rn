@@ -1,63 +1,30 @@
 {
   "expo": {
-    "name": "cestascooperflora",
-    "description": "Aplicativo para gerenciamento de vendas das cestas de produtos orgânicos da cooperativa Cooperflora",
-    "slug": "cestascooperflora",
-    "platforms": [
-      "ios",
-      "android"
-    ],
-    "version": "3.1.5",
+    "name": "cestas-elizabeth-teixeira",
+    "slug": "cestas-elizabeth-teixeira",
+    "version": "1.0.0",
     "orientation": "portrait",
-    "backgroundColor": "#ffffff",
-    "icon": "./assets/images/icon.png",
-    "notification": {
-      "icon": "./assets/images/notificationicon.png",
-      "color": "#007aff",
-      "androidMode": "collapse",
-      "androidCollapsedTitle": "New Notification",
-      "iosDisplayInForeground": true
-    },
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/images/splashscreenv2.0.png",
+      "image": "./assets/splash.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
-    "updates": {
-      "fallbackToCacheTimeout": 0
-    },
-    "assetBundlePatterns": ["**/*"],
+    "assetBundlePatterns": [
+      "**/*"
+    ],
     "ios": {
-      "supportsTablet": true,
-      "bundleIdentifier": "br.pro.bordignon",
-      "buildNumber": "3.1.5"
+      "supportsTablet": true
     },
     "android": {
-      "package": "br.pro.bordignon",
-      "googleServicesFile": "./google-services.json",
-      "versionCode": 34,
-      "useNextNotificationsApi": true,
-      "permissions": [
-        "CAMERA",
-        "WRITE_EXTERNAL_STORAGE"
-      ]
-    },
-    "hooks": {
-      "postPublish": [
-        {
-          "file": "sentry-expo/upload-sourcemaps",
-          "config": {
-            "organization": "ifsp-fn",
-            "project": "cestas-cooperflora"
-          }
-        }
-      ]
-    },
-    "plugins": ["sentry-expo"],
-    "extra": {
-      "eas": {
-        "projectId": "0ee452b5-ed8e-48f7-8214-8be5cc32cfa4"
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
       }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
     }
   }
 }

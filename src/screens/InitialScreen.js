@@ -22,7 +22,7 @@ export const initialScreenOptions = () => {
   return {
     headerTitle: () => (
       <View style={styles.header}>
-        <HeaderTitle title="Cestas Cooperflora" />
+        <HeaderTitle title="Cestas Elizabeth Teixeira" />
       </View>
     ),
     headerStyle: {

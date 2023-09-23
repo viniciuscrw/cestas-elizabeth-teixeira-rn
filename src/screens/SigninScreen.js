@@ -172,7 +172,7 @@ const SigninScreen = ({ navigation }) => {
       <View style={styles.container}>
         <View style={styles.header}>
           <Text style={styles.textTitle}>Cestas</Text>
-          <Text style={styles.textTitle}>Cooperflora</Text>
+          <Text style={styles.textTitle}>Elizabeth Teixeira</Text>
           <Image style={styles.image} source={BasketProductsImage} />
         </View>
         <View>

@@ -13,7 +13,7 @@ const slides = [
     title: 'Cestas Elizabeth Teixeira',
     subtitle: 'Campinas',
     text1:
-      'Boas vindas ao aplicativo  de gestão das cestas do Coletivo de Produtoras Elizabeth Teixeira do grupo de consumo de Barão Geraldo.',
+      'Boas vindas ao aplicativo  de gestão das cestas do Coletivo de Produtoras Elizabeth Teixeira do grupo de consumo de Campinas.',
     text2: 'Versão 3.1.5',
     image1: logoElizabeth,
     image2: logoIfsp,
@@ -46,7 +46,7 @@ const slides = [
     title: 'Elizabeth Teixeira',
     subtitle: 'Campinas',
     text2:
-      'Organização do grupo de consumo de Campinas.\n\n Contato: cooperflorabarao@gmail.com\n\nEquipe de Desenvolvimento\n\nCoordenação: André Luís Bordignon \n\nDesenvolvimento: Vinicius Costa Regaço\n\nDesign: Mateus Santos Magalhães\n\nBolsistas: Luana Matallo Ruggiero, Rafael Almeida, Yasmin Souza Lima',
+      'Organização do grupo de consumo de Campinas.\n\n Contato: aplicativoelizabethteixeira@gmail.com\n\nEquipe de Desenvolvimento\n\nCoordenação: André Luís Bordignon \n\nDesenvolvimento: Vinicius Costa Regaço\n\nDesign: Mateus Santos Magalhães\n\nBolsistas: Luana Matallo Ruggiero, Rafael Almeida, Yasmin Souza Lima',
   },
 ];
 

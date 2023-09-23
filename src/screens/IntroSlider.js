@@ -4,47 +4,47 @@ import AppIntroSlider from 'react-native-app-intro-slider';
 import { FontAwesome5 } from '@expo/vector-icons';
 import Constants from 'expo-constants';
 import Button from '../components/Button';
-import logoElizabeth from '../../assets/images/logo.png';
+import logoElizabeth from '../../assets/images/logo_elizabeth_teixeira.png';
 import logoIfsp from '../../assets/images/logoifspcampinas.png';
 
 const slides = [
   {
     key: '1',
-    title: 'Cestas Cooperflora',
-    subtitle: 'Barão Geraldo',
+    title: 'Cestas Elizabeth Teixeira',
+    subtitle: 'Campinas',
     text1:
-      'Bem vindo, bem vinda ao aplicativo  de gestão das cestas Cooperflora do grupo de consumo de Barão Geraldo',
+      'Bem vindo, bem vinda ao aplicativo  de gestão das cestas Elizabeth Teixeira do grupo de consumo de Campinas',
     text2: 'Versão 3.1.5',
     image1: logoElizabeth,
     image2: logoIfsp,
   },
   {
     key: '2',
-    title: 'Cooperflora',
-    subtitle: 'Barão Geraldo',
+    title: 'Elizabeth Teixeira',
+    subtitle: 'Campinas',
     text2:
-      'A Cooperflora é uma cooperativa de produtoras e produtores rurais sediada no assentamento Milton Santos fundada em 2015. A  cooperativa tem trabalhado para construir um mercado de consumo consciente da sua produção fornecendo, em bases semanais, a venda de cestas  agroecológicas de seus produtos para grupos de consumo. Os produtores da Cooperflora são certificados pela OCS - Organização de Controle Social.\n\nUm grupo de consumo é um conjunto de pessoas que se juntam para comprar os produtos orgânicos da cooperativa em uma relação que não é apenas comercial, mas é de valorização da produção familiar orgânica.',
+      'A Elizabeth Teixeira é uma cooperativa de produtoras e produtores rurais sediada no assentamento Milton Santos fundada em 2015. A  cooperativa tem trabalhado para construir um mercado de consumo consciente da sua produção fornecendo, em bases semanais, a venda de cestas  agroecológicas de seus produtos para grupos de consumo. Os produtores da Elizabeth Teixeira são certificados pela OCS - Organização de Controle Social.\n\nUm grupo de consumo é um conjunto de pessoas que se juntam para comprar os produtos orgânicos da cooperativa em uma relação que não é apenas comercial, mas é de valorização da produção familiar orgânica.',
   },
   {
     key: '3',
-    title: 'Cooperflora',
-    subtitle: 'Barão Geraldo',
+    title: 'Elizabeth Teixeira',
+    subtitle: 'Campinas',
     text2:
       'Como funciona.\n\n1. A pessoa entra em contato com grupo de consumo e pede sua inclusão.\n\n2. A organização do grupo entra em contato passando as informações e solicitando um e-mail da pessoa.\n\n3. Com o e-mail previamente cadastrado pela cooperativa a pessoa pode acessar o aplicativo. ',
   },
   {
     key: '4',
-    title: 'Cooperflora',
-    subtitle: 'Barão Geraldo',
+    title: 'Elizabeth Teixeira',
+    subtitle: 'Campinas',
     text2:
       'O projeto.\n\nEste aplicativo foi desenvolvido através de um projeto de extensão do Instituto Federal de São Paulo campus Campinas.\n\nIFSP Campinas.\n\nO Instituto Federal de Educação, Ciência e Tecnologia de São Paulo - IFSP - é uma autarquia federal de ensino fundada em 1909, como de Aprendizes Artífices. O IFSP é vinculado ao Ministério da Educação (MEC), é reconhecido por sua excelência no ensino público e atuação prioritária na oferta de educação tecnológica.',
   },
   {
     key: '5',
-    title: 'Cooperflora',
-    subtitle: 'Barão Geraldo',
+    title: 'Elizabeth Teixeira',
+    subtitle: 'Campinas',
     text2:
-      'Organização do grupo de consumo de Barão Geraldo.\n\n Contato: cooperflorabarao@gmail.com\n\nEquipe de Desenvolvimento\n\nCoordenação: André Luís Bordignon \n\nDesenvolvimento: Vinicius Costa Regaço\n\nDesign: Mateus Santos Magalhães\n\nBolsistas: Luana Matallo Ruggiero, Rafael Almeida, Yasmin Souza Lima',
+      'Organização do grupo de consumo de Campinas.\n\n Contato: cooperflorabarao@gmail.com\n\nEquipe de Desenvolvimento\n\nCoordenação: André Luís Bordignon \n\nDesenvolvimento: Vinicius Costa Regaço\n\nDesign: Mateus Santos Magalhães\n\nBolsistas: Luana Matallo Ruggiero, Rafael Almeida, Yasmin Souza Lima',
   },
 ];
 

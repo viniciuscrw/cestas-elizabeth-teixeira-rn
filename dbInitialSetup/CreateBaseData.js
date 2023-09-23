@@ -6,13 +6,13 @@ const admin = require('firebase-admin');
 
 const group = {
   address:
-    'STOUT Café Cultura & Bar - R. Gilberto Pattaro, 105 - Barão Geraldo, Campinas - SP',
-  baseProductsPrice: 40,
-  deliveryFee: 5,
+    'Unicamp',
+  baseProductsPrice: 60,
+  deliveryFee: 7,
   deliveryFrequencyInDays: 15,
   deliveryFrequencyText: 'Quinzenalmente às quartas-feiras',
   deliveryWeekDay: 'Quarta-feira',
-  name: 'Barão Geraldo',
+  name: 'Unicamp',
   time: 'Das 18h30 às 19h00',
 };
 
@@ -20,8 +20,8 @@ const group = {
 // const serviceAccount = require('../../cestascooperflorabarao-firebase-adminsdk-kg42n-264249460c.json');
 
 // Dev DB
-const serviceAccount = require('../../cestascooperflorabarao-dev-firebase-adminsdk-hopm6-8a8fcf03f3.json');
-const databaseURL = 'https://cestascooperflorabarao-dev-default-rtdb.asia-southeast1.firebasedatabase.app';
+const serviceAccount = require('../../appelizabethteixeira-dev-firebase-adminsdk-ec0nw-e699884df0.json');
+// const databaseURL = 'https://cestascooperflorabarao-dev-default-rtdb.asia-southeast1.firebasedatabase.app';
 
 // // Bordi database ==============
 // const serviceAccount = require('../../cestas-cooperflora-dev2-firebase-adminsdk-f8nor-6bf231082b.json');
@@ -34,7 +34,7 @@ console.log('Iniciando a criação do banco de dados do app Cestas Cooperflora')
 
 const db = admin.initializeApp({
   credential: admin.credential.cert(serviceAccount),
-  databaseURL,
+  // databaseURL,
 });
 
 console.log('Criação dos usuários de inicialização do app.');

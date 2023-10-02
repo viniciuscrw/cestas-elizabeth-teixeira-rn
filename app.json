@@ -4,10 +4,10 @@
     "slug": "cestas-elizabeth-teixeira",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/images/logoelizabeth.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/images/splashscreenenv.png",
+      "image": "./assets/images/splashscreen.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -18,13 +18,16 @@
       "supportsTablet": true
     },
     "android": {
-      "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
-      }
+      "package": "br.pro.bordignon.cestaselizabethteixeira",
+      "versionCode": 1
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "4a532d30-984b-4618-90a9-0309b2901791"
+      }
     }
   }
 }

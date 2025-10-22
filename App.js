@@ -1,6 +1,6 @@
 import React from 'react';
+// import 'expo-dev-client'; // This line is for debug purpose only.
 import { LogBox } from 'react-native';
-// import firebase from 'firebase';
 import firebase from 'firebase/compat/app';
 
 // import * as Sentry from 'sentry-expo';
